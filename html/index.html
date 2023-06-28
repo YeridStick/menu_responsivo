@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <!--Iconos-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../js/index.js" defer></script>
+</head>
+<body>
+  <nav class="sidebar locked">
+    <div class="logo_items flex">
+      <span class="nav_image">
+        <img src="../img/Mi logo.svg" alt="logo_image">
+      </span>
+      <span class="logo_name">erid-Stick</span>
+      <i class='bx bx-lock-alt' id="lock-icon"></i>
+      <i class='bx bx-x' id="sidebar-close"></i>
+    </div>
+    <div class="menu-container">
+      <div class="menu-itens">
+        <ul class="menu-iten">
+          <div class="menu-title">
+            <span class="title">Dashboard</span>
+            <!--<div id="line"></div>-->
+          </div>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bx-home'></i>
+              <span>Overview</span>
+            </a>
+          </li>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bx-grid' ></i>
+              <span>All projects</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="menu-iten two-line">
+          <div class="menu-title">
+            <span class="title">Editor</span>
+            <div id="line"></div>
+          </div>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bxs-magic-wand'></i>
+              <span>Magic build</span>
+            </a>
+          </li>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bx-folder' ></i>
+              <span>New projects</span>
+            </a>
+          </li>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bx-cloud-upload' ></i>
+              <span>Upload new </span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="menu-iten two-line">
+          <div class="menu-title">
+            <span class="title">Setting</span>
+            <div id="line"></div>
+          </div>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bx-cog'></i>
+              <span>Setting</span>
+            </a>
+          </li>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bx-flag' ></i>
+              <span>Notice board</span>
+            </a>
+          </li>
+          <li class="items">
+            <a href="#" class="link flex">
+              <i class='bx bx-award' ></i>
+              <span>Award</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar-profile flex">
+        <div class="menu-title">
+          <div id="line-profile"></div>
+        </div>
+        <div class="profile-items">
+          <span class="sidebar-profile-nav-image">
+            <img id="sidebar-profile-image" src="../img/Profile/Profile.png" alt="Foto_Yerid">
+          </span>
+          <div class="data-text">
+            <span class="data-text-item">
+              <span class="name">Yerid Stick R</span>
+              <span class="email"><a href="#">yeridstick3000@gmail.com</a></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar-->
+  <nav class="navbar flex">
+    <i class="bx bx-menu" id="sidebar-open"></i>
+    <input type="text" placeholder="Search..." class="search-box" name="buscar">
+    <img id="navbar-image-profile-image"  src="../img/Profile/Profile.png" alt="Foto_Yerid">
+  </nav>
+</body>
+</html>
